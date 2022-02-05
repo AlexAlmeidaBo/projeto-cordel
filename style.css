@@ -8,14 +8,13 @@
 }
 
 body{
-    min-width: 70vh;
+    min-width: 100%;
 }
 
 header{
     display: block;
     background-color: black;
     color: white;
-    align-items: center;
     text-align: center;
     padding: 50px;
 }
@@ -24,16 +23,11 @@ header h1{
     font-family: 'Passion One', cursive;
     font-weight: bold;
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main p{
-    display: block;
-    font-family: 'Sriracha', cursive;
-    font-size: 3.5vw;
 }
 
 header a{
@@ -41,9 +35,15 @@ header a{
     font-weight: bold;
 }
 
+main p{
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+
+
 section{
     padding: 5vh 0 5vh 10vh ;
-    background-position: right center;
+    background-position:  center;
     background-size: cover;
     background-attachment: fixed;
     display: block;
@@ -62,8 +62,9 @@ section{
     color: white;
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.349);
     text-shadow: 1px 1px 0px black;
+    border-radius: 10px;
 }
 
 .normal {
@@ -78,7 +79,7 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer > p > strong{
+footer  strong{
     font-weight: bold;
     color: lightcoral;
 }
